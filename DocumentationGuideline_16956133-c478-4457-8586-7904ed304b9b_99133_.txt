@@ -1,0 +1,95 @@
+Required Pages:
+	Home
+	Product (e-commerce webpage for a store that sells various grocery items )
+	Blog
+	- About Technology
+	- Positive Impact
+	- Negative Impact
+	- Impact of technology on daily life and business
+	- Overall Conclusion
+	Research
+	- Compare your design with other website design
+	About Us
+	- Feeback form
+	- Portfolio of every team members
+
+o	Brief description of the contents present on different web pages can be included 	on the Home page.
+o	Blog page can contain a demonstration about how technology has affected daily 	life and business.
+o	Different products with the product name, price (Discounted and actual price), 	description, and other suitable details can be included within the product page.
+o	Research section should display and contrast the components used by the student 	on their website against the website that is investigated for research purposes. 	Here, include at least 5 different web pages as references for the website. 	(Hint: look into peculiar web components that their website possesses more than 	others)
+o	About Us section comprises the detailed portfolio of each team member of the 	group. A portfolio can contain technical and soft skills, educational background, 	volunteering experience, certifications, etc.
+o	Functional form should also be included on the website.
+
+
+Tips:
+	Comments are mandatory
+	HTML tags:
+		- table 
+		- div
+		- meta
+		- image 
+		- form
+
+	CSS:    only one css file to be created!
+		- Inline
+		- Internal
+		- External
+
+	JS:
+		- Internal
+		- External 
+	
+Documentation
+Introduction
+	- Introduction to your project with its main features
+	- Goals and objectives
+	- How HTML, CSS and JS was used while developing website
+	- Verdict
+
+Discussion and Analysis
+
+	Selected Text Editor
+		- Use of text editor
+
+	Tool used while developing wireframe
+		- Short explanation about tool used for developing wireframe
+
+	Name of page
+		- Explanation of contents present in the page
+		- Screenshot of Wireframe
+		- Screenshot of Page
+
+Testing (Minimum 5 test cases)
+	- 3 JS testing (Mandatory)
+	- 1 (Nav Hover effect)
+	- 1 (Internal + External Link)
+
+Test 1
+	------------------------------
+	| Objective       |          |
+	-----------------------------|
+	| Action          |          |
+	-----------------------------|
+	| Expected Result |          |
+	-----------------------------|
+	| Actual Result   |          |
+	-----------------------------|
+	| Test            |          |
+	------------------------------
+	Screenshots.
+
+Conclusion
+	- Task that had been carried out in coursework
+	- Summerize the project and development process; and things learnt
+	- State the limitation of the project implementation or the problems the project has to tackle the practical issues
+	- Solutions to above limitation or how this project can be developed in future
+	- Research and finding should also be highlighted
+	
+Appendix
+	- Code of all pages
+	- In text
+
+For submission:
+1. Zip the project folder. 
+2. Make sure both files have your NAME and ID as filename
+3. Submit zip file and the pdf(report) file together.

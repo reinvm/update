@@ -1,0 +1,14 @@
+Each Group are required to select the one project and one document representing thier project. We only need one and only one project and document from a group, so plan accordingly.
+
+Each group can have max of 5 students and min of 3 students!!
+
+Please provide a list of students in a group and the one who will be submitting the work.
+
+Please create zip file of project document and development folder with proper LONDON met ID and name
+
+Please note that students are not allowed to use:
+	1. Bootstrap
+	2. Jquery
+	3. Media query
+	4. Ajax
+	5. Font awesome

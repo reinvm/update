@@ -1,0 +1,389 @@
+<html>
+  <head>
+    <title>home</title>
+    <style>
+      /* CSS for the navigation bar */
+
+      .navbar {
+        background-color:rgb(255, 181, 52);
+        display: flex;
+        align-items: center;
+        font-family:consolas;
+        padding: 10px;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+      }
+      .nav-links{
+        display: flex;
+        gap: 40px;  
+      }
+      .navbar a{
+        color: #000000;
+        text-align: center;
+        text-decoration: none;
+        transition: 100ms;   
+      }
+
+      .navbar a:hover {
+        color: white;
+      }
+
+      .nav-links {
+        margin:0 300;
+      }
+
+      .icons img{
+        margin:0 15px ;
+
+      }
+
+      .mybutton{
+        background-color: #47d34c; /* Green background */
+            padding: 8px 15px;
+            border: none; 
+            border-radius: 50px; 
+            transition: all 0.5s ease-in-out;      
+      }
+      .myButton:hover {
+            background-color: #2ac040;
+      
+      }
+
+      .back{
+        position: relative;
+    width: 100%; 
+      }
+
+    .text{
+    position: absolute;
+    top: 56%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(11, 140, 76);
+    font-size: 80px;
+    font-family: Georgia;
+    text-align: left justify;
+    line-height: 1.2;
+  }
+
+  .explore{
+    background-color: #9fd30fbd; 
+            padding: 8px 20px 20px;
+            border-radius: 50px;  
+            font-size: 50px;
+            letter-spacing: 2px;
+            text-decoration: none;
+            font-family: consolas;
+    }
+
+    .explore:hover{
+     color: antiquewhite;
+    }
+
+  .content {                   
+    padding: 4%;
+    margin: 2%;    
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));  
+    gap: 2rem;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+
+.foot {
+    padding: 18px 11% 10px;
+    display: flex; 
+    justify-content:center;
+    align-items: top;
+}
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  
+}
+    
+ footer{
+  background: rgb(193, 242, 176);
+  text-align: left;
+ }
+
+ .end{
+  text-align: center;
+  padding: 20px;
+  }
+
+  .follow{
+    padding: 4%;
+    margin: 2%;    
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    display: flex;
+  }
+
+
+.productinfo{
+  text-align: center;
+  padding: 100px;
+  font-size: 40px;
+  font-family: consolas;
+}
+
+  .container{
+        max-width: 350px;
+        height: 450px;
+        display:grid;
+        place-items:center;
+        margin-top: 30px;
+        padding: 10px 0px;
+        border-bottom-right-radius: 10px; 
+        border-bottom-left-radius: 10px;
+        cursor:pointer;
+        position:relative;
+      }
+      .container, .prt_price{
+        transition: 0.5s; 
+      }
+      .container::before{
+        content: '';
+        background-color: rgb(101, 183, 65);
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        position:absolute;
+        z-index: -1;
+        transform: scaleY(0);
+        transform-origin:bottom;
+        transition: transform 0.5s ease-in-out;
+      }
+      .container{
+        z-index: 1;
+      }
+      .container:hover::before{
+        transform:scaleY(1);
+      }
+
+      .prt_img{
+      width: 300px;
+      height: 350px;
+      object-fit:cover; 
+      }
+      .prt-details{
+        text-align:center;
+      }
+      .prt_name, .prt_price{
+        margin:0;
+
+      }
+      .prt_name{
+        font-size: 25px;
+        font-weight:bold;
+        margin: 10px;
+      }
+
+      .prt_price{
+        display:inline-block;
+        font-size: 20px;
+        padding: 12px 50px ;
+        color:white;
+        font-weight: bolder;
+        background-color:rgb(101, 183, 65);
+        border-radius: 8px;
+      }
+      .container:hover .prt_price{
+        padding: 12px 80px;
+      }
+      .container:hover .prt_price{
+        background-color:white;
+        color: green;
+      }
+      .prt_price:active{
+        background-color:black;
+        color: green;
+      }
+
+
+      .special {
+  display: flex;
+  align-items: center; 
+  background-color: rgb(193, 242, 176); 
+  padding: 20px;
+  border-radius: 20%;
+}
+
+.left-image {
+  width: 400px; 
+  height: 400px;
+  margin-right: 200px;
+}
+
+.text-section {
+  flex-grow: 1; 
+  font-size: 30px;
+}
+
+
+.whychoose{
+  display: flex; 
+  padding-top: 20px; 
+}
+
+.why{
+  padding: 100px 100px 100px;
+  font-size: 60px;
+}
+
+.readmore{
+  background-color: #78f272;
+  font-size: 30px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+}
+      
+
+    </style>
+  </head>
+  <body>
+    
+    <!-- Navigation bar -->
+    <header class="navbar">
+      <img src="logo.png">
+
+      <div class="nav-links">
+        <a href="" class="nav-button">Home</a>
+        <a href="" class="nav-button">Products</a>
+        <a href="" class="nav-button">Blog</a>
+        <a href="" class="nav-button">Research</a>
+        <a href="" class="nav-button">About</a>
+      </div>
+      <div class="icons">
+        <img src="search.png" width="29">
+        <img src="account.png" width="25">
+        <button class="mybutton" id="myButton"><img src="cart.png" width="25" alt="Button Image">
+        </button>
+        
+      </div>
+    </header>
+    <img class="back" src="bg_1-transformed.jpeg" style="
+    width:100%; 
+    height:100%;
+    ">
+    <div class="text">
+      Fresh Finds, Daily Delights!<br><br>
+    <a href="#" class="explore">Explore</a>
+    </div>
+
+
+    <!-- for text above prosucts -->
+
+
+
+    <div class="productinfo">
+      Check Out Our New Products
+    </div>
+  
+    <div class="container-grid" style="
+    background-color: rgb(255, 255, 255);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items:center;
+    margin-bottom: 10px;
+    ">
+      <div class="container">
+        <img class="prt_img" src="resources/photos/chips/cheetos.png"> 
+        <div class="prt-details">
+          <p class="prt_name">2pm STIX</p>
+          <p class="prt_price">Rs. 50</p>
+        </div>
+      </div>
+      <div class="container">
+        <img class="prt_img" src="resources/photos/chips/doritos.png"> 
+        <div class="prt-details">
+          <p class="prt_name">2pm STIX</p>
+          <p class="prt_price">Rs. 50</p>
+        </div>
+      </div>
+      <div class="container">
+        <img class="prt_img" src="resources/photos/chips/lays.png"> 
+        <div class="prt-details">
+          <p class="prt_name">2pm STIX</p>
+          <p class="prt_price">Rs. 50</p>
+        </div>
+      </div>
+      
+    </div><br><br>
+
+    
+
+    <div class="special">
+      <img src="drinks.png" alt="Image" class="left-image">
+      <div class="text-section">
+        <h2>Special offer</h2>
+        <p>This is the text content that will appear on the right side of the image.</p>
+      </div>
+    </div>
+    
+
+    <section class="whychoose">
+      <div class="why">Why Choose Us?? <br><br>
+        <a class="readmore" type="button" href="#">Read More</a>
+      </div>
+      <div>
+        <li><img src="fast.png" height="60px" width="100px"></li>
+        <p class="text1"><h1>Fast Shipping</h1>Quick order processing, expedited shipping options, real-time
+          tracking, and efficient<br> communication to ensure printers
+          are delivered promptly to customers.</h4></p><br>
+      <li><img src="flower.png" height="80px" width="100px"></li>
+        <p class="text2"><h1>Guaranteed </h1> guarantee provides customers with confidence in the
+          reliability and timeliness of the<br> shipping service
+          offered by the online store.</p><br>
+      <li><img src="hand.png" height="60px" width="100px"> </li>
+      <p class="text3"><h1>Return and Refund Policy</h1> guarantee provides customers with confidence in the
+        reliability and timeliness of the<br> shipping service offered
+        by the online store.</p><br><br>
+      </div>
+    </section>
+
+    <footer>
+      <section class="foot">
+        <div class="content">
+          <h3>Policy Info</h3>
+          <li>Cancle and Refund</li>
+          <li>Privacy Policy</li>
+          <li>Terms and Conditions</li>
+          <li>Security</li>
+        </div>
+
+        <div class="content">
+          <h3>Quick Links</h3>
+          <li>Home</li>
+          <li>Blog</li>
+          <li>Product</li>
+          <li>Research</li>
+          <li>About Us</li>
+        </div>
+
+        <div class="content">
+          <h3>Company Info</h3>
+          <li>About US</li>
+          <li>Code Of Conduct</li>
+          <li>Follow us</li>
+          <img src="insta.png" width="40px" height="40px">
+          <img src="fb.png" width="40px" height="40px">
+          <img src="tt.png" width="40px" height="40px">
+        </div>
+
+    
+      </section>
+      <div class="end">
+        ©2024 All Right Reserved By GreenGrub
+      <div>
+    </footer>
+
+  </body>
+</html>

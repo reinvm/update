@@ -1,0 +1,317 @@
+<html>
+    <head>
+        <title>
+            research page
+        </title>
+        <style>
+            /* CSS for the navigation bar */
+      
+            .navbar {
+              background-color:rgb(255, 181, 52);
+              display: flex;
+              align-items: center;
+              font-family:consolas;
+              padding: 10px; 
+              z-index: 100;
+              width:max-content; 
+            }
+            .nav-links{
+              display: flex;
+              gap: 40px;  
+            }
+            .navbar a{
+              color: #000000;
+              text-align: center;
+              text-decoration: none;
+              transition: 100ms;   
+            }
+      
+            .navbar a:hover {
+              color: white;
+            }
+      
+            .nav-links {
+              margin:0 300;
+            }
+      
+            .icons img{
+              margin:0 15px ;
+      
+            }
+      
+            .mybutton{
+              background-color: #47d34c; /* Green background */
+                  padding: 8px 15px;
+                  border: none; 
+                  border-radius: 50px; 
+                  transition: all 0.5s ease-in-out;      
+            }
+            .myButton:hover {
+                  background-color: #2ac040;
+            
+            }
+            
+            .heading{
+                text-align: center;
+                text-decoration: underline;
+                color:black;
+                font-weight:bold ;
+                font-size:20px ;
+                padding: 5%;
+            }
+            body{
+                background-color:white;
+                /* width: 100%; */
+    
+            }
+            .all{
+                background-color: rgb(251, 246, 238);
+                display:flex;
+                justify-content: center;
+                border-radius: 12px;
+            }
+            .researched{
+                margin:25px;
+                padding:10px;
+            }
+            a{
+                cursor: pointer;
+                color: orange;
+            }
+
+             
+            .foot {
+                text-decoration: none;
+                padding: 18px 11% 10px;
+                display: flex; 
+                justify-content:center;
+                align-items: top;
+                list-style: none;
+            }
+
+            footer{
+                background: rgb(193, 242, 176);
+                text-align: left;
+            }
+
+            .content {                   
+                padding: 4%;
+                margin: 2%;    
+                grid-template-columns: repeat(auto-fit, minmax(250px, auto));  
+                gap: 2rem;
+                align-items: center;
+                font-size: 20px;
+                            
+            }
+
+            .end{
+            text-align: center;
+            padding: 20px;
+            }
+
+  .follow{
+    padding: 4%;
+    margin: 2%;    
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    display: flex;
+  }
+            </style>
+    </head>
+ <body>
+<!--header part starts-->
+<header class="navbar">
+    <img src="logo.png">
+    <div class="nav-links">
+      <a href="" class="nav-button">Home</a>
+      <a href="" class="nav-button">Products</a>
+      <a href="" class="nav-button">Blog</a>
+      <a href="" class="nav-button">Research</a>
+      <a href="" class="nav-button">About</a>
+    </div>
+    <div class="icons">
+      <img src="search.png" width="29">
+      <img src="account.png" width="25">
+      <button class="mybutton" id="myButton"><img src="cart.png" width="25" alt="Button Image">
+      </button>
+      
+    </div>
+  </header>
+<!--hedaer part ends-->
+
+<!--body part starts-->
+    <div class="main_container" style="margin:90px auto; width:80%;"><!--inline css-->
+       
+        <h1 class=heading> Home Page </h1>
+        <section class="all">
+            <div class="researched">
+                <h3>Referenced</h3>
+                <br>
+                <figure>
+                <img src="homeim.png" alt="research" height="250px" mini-width="80%" border="2px">
+                <figcaption>Figure: Referenced Home Page </figcaption>
+                </figure>
+                <br>
+                <p>This website inspired us to create our homepage, which can be seen in the center.
+                    <br>
+                    Link for the website:
+                    <a href="https://preview.themeforest.net/item/orfarm-grocery-food-store-ecommerce-next-js-template/full_screen_preview/50522108?_ga=2.143562226.619457511.1713033970-587004829.1713033970">https://www.themeforest.net</a>
+                </p>
+            </div>
+            <div class="researched">
+                <h3>Implemented</h3>
+                <br>
+                <figure>
+                <img src="homedone.png" alt="implement" height="250px" max-width="80%" border="2px">
+                <figcaption>Figure: Implemented Home Page</figcaption>
+                </figure>
+                <br>
+                <p>
+                    Here, we created an explore button using CSS and added an image using the image tag in the center. Additionally, clicking the button will take you to the product page.
+                </p>
+                <br>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <h1 class=heading> Product Page </h1>
+        <div class="all">
+            <section class="researched">
+                <h3>Referenced</h3>
+                <br>
+                <figure>
+                <img src="./../image/research/productR.png" alt="research" height="350px" width="100%" border="2px">
+                <figcaption>Figure: Referenced Product Page </figcaption>
+                </figure>
+                <br>
+                <p>We have got the idea for our product page from this website.
+                    <br>
+                    Link for the website:
+                    <a href="https://www.brother.in/en/products/all-printers">https://www.brother.in/en/products/all-printers</a>
+                </p>
+            </section>
+            <section class="researched">
+                <h3>Implemented</h3>
+                <br>
+                <figure>
+                <img src="./../image/research/product.png" alt="implement" height="350px" width="100%" border="2px">
+                <figcaption>Figure: Implemented Product Page</figcaption>
+                </figure>
+                <br>
+                <p>Using the reference as a guide, we have inserted the products in columnar fashion, resulting in a wonderfully listed product.</p><br>
+            </section>
+        </div>
+        <br>
+        <hr>
+        <h2 class=heading> Blog Page </h2>
+        <div class="all">
+            <section class="researched">
+                <h3>Referenced</h3>
+                <br>
+                <figure>
+                <img src="./../image/research/blogR.png" alt="research" height="350px" width="100%" border="2px">
+                <figcaption>Figure: Referenced Blog Page </figcaption>
+                </figure>
+                <br>
+                <p>We got the inspiration for my blog page from this video.
+                    <br>
+                    Link for the website:<br>
+                    <a href="https://www.youtube.com/watch?v=lgX38fNbxmw">https://www.youtube.com/watch?v=lgX38fNbxmw</a>
+                </p>
+            </section>
+            <section class="researched">
+                <h3>Implemented</h3>
+                <br>
+                <figure>
+                <img src="./../image/research/blog.png" alt="implement" height="350px" width="100%" border="2px">
+                <figcaption>Figure: Implemented Blog Page</figcaption>
+                </figure>
+                <br>
+                <p>Inspired by a mentioned video, I added an extra button to increase appeal and save space.</p><br>
+            </section>
+        </div>
+        <br>
+        <hr>
+        <h2 class=heading> Research Page </h2>
+        <div class="all">
+            <section class="researched">
+                <h3>Research</h3>
+                <br>
+                <figure>
+                <img src="./../image/research/research.png" alt="implement" height="350px" width="70%" border="2px">
+                <figcaption>Figure: Implemented Research Page</figcaption>
+                </figure>
+                <br>
+                <p>I've designed the research page in a way suggested by the question and personalized manner.</p><br>
+            </section>
+        </div>
+        <br>
+        <hr>
+        <h2 class=heading> About us Page </h2>
+        <div class="all">
+            <section class="researched">
+                <h3>Referenced</h3>
+                <br>
+                <figure>
+                <img src="./../image/research/aboutR.png" alt="research" height="350px" width="100%" border="2px">
+                <figcaption>Figure: Referenced Blog Page </figcaption>
+                </figure>
+                <br>
+                <p>This website inspired me to create my About Us page. </p>
+                    Link for the website:
+                    <a href="https://www.w3schools.com/howto/howto_js_vertical_tabs.asp">https://www.w3schools.com/howto/howto_js_vertical_tabs.asp</a>
+                </p>
+            </section>
+            <section class="researched">
+                <h3>Implemented</h3>
+                <br>
+                <figure>
+                <img src="./../image/research/about.png" alt="implement" height="350px" width="100%" border="2px">
+                <figcaption>Figure: Implemented Blog Page</figcaption>
+                </figure>
+                <br>
+                <p>I developed the member information using the vertical tabs I learned from this website. I also added a contact us form beneath it.</p>
+                <br>
+            </section>
+        </div>
+        <br>
+    </div>
+    <footer>
+        <section class="foot">
+          <div class="content">
+            <h3>Policy Info</h3>
+            <li>Cancle and Refund</li>
+            <li>Privacy Policy</li>
+            <li>Terms and Conditions</li>
+            <li>Security</li>
+          </div>
+  
+          <div class="content">
+            <h3>Quick Links</h3>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>Product</li>
+            <li>Research</li>
+            <li>About Us</li>
+          </div>
+  
+          <div class="content">
+            <h3>Company Info</h3>
+            <li>About US</li>
+            <li>Code Of Conduct</li>
+            <li>Follow us</li>
+            <img src="insta.png" width="40px" height="40px">
+            <img src="fb.png" width="40px" height="40px">
+            <img src="tt.png" width="40px" height="40px">
+          </div>
+  
+      
+        </section>
+        <div class="end">
+          ©2024 All Right Reserved By GreenGrub
+        <div>
+      </footer>
+  
+    </body>
+  </html>
+                     
